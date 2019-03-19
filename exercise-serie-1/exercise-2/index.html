@@ -21,13 +21,36 @@
     <h1 class="text-center my-5"><i class="fas fa-cat"></i> This is a template <i class="fas fa-cat"></i></h1>
 
 
-    <div class="container my-5 py-5 bg-white text-success">
+    <div class="container my-5 py-5 bg-white text-success d-flex flex-row">
 
-        
+        <div class="text col-md-5 col-sm-12">
+            Number one: <br><input type="number" id="number1" ><br>
+            Number two: <br><input type="number" id="number2" ><br>
+            Result: <br><input type="number" id="sum" ><br>
+        </div>
 
+        <div class="buttons col-md-5 col-sm-12">
+            <div id="button1">
+                <button type="button" class="btn btn-secondary col-md-4 col-sm-12 mb-2" id="operator" 
+                value="+" onclick="calculate('+')" >+</button>
+            </div>
 
+            <div id="button2">
+                <button type="button" class="btn btn-secondary col-md-4 col-sm-12 mb-2" id="operator" 
+                value="-" onclick="calculate('-')" >-</button>
+            </div>
+
+            <div id="button3">
+                <button type="button" class="btn btn-secondary col-md-4 col-sm-12 mb-2" id="operator" 
+                value="*" onclick="calculate('*')" >*</button>
+            </div>
+
+            <div id="button4">
+                <button type="button" class="btn btn-secondary col-md-4 col-sm-12 mb-2" id="operator" 
+                value="/" onclick="calculate('/')" >/</button>
+            </div>
+        </div>
         <!-- PLACE YOUR CONTENT HERE-->
-
 
 
 
