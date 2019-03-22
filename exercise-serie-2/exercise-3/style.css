@@ -11,7 +11,7 @@
 
 #Cookie {
   position: absolute;
-  background: transparent url(PerfectCookie.png) no-repeat;
+  background: transparent url(./PerfectCookie.png) no-repeat;
   background-size: 312px;
   background-position: -10px;
   width: 290px;
@@ -23,7 +23,7 @@
 .container {
   text-align: center;
   height: 400px;
-  background: url(wood1.jpg);}
+  background: url(./wood1.jpg);}
 
 h3 {
   color: black; }
