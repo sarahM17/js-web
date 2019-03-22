@@ -1,1 +1,11 @@
-/*Use the .scss file instead!*/
+.card {
+  width: 15rem;
+  background-color: darkslategrey;
+  color: whitesmoke; }
+
+.card .card-img-top {
+  background: gray;
+  height: 40vh;
+  object-fit: contain; }
+
+/*# sourceMappingURL=style.css.map */
